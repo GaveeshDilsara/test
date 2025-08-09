@@ -15,6 +15,14 @@ export default function Index() {
       <Text style={{color:'#ffffff'}}>Enjoy coding!</Text>
       <Text style={{color:'#ffffff'}}>Have a great day!</Text>
 
+
+      <Text style={{color:'#ffffff'}}>This is a simple app with a button.</Text>
+      <Text style={{color:'#ffffff'}}>Click the button to see the console log.</Text>
+      <Text style={{color:'#ffffff'}}>You can customize the button color.</Text>
+      <Text style={{color:'#ffffff'}}>This is a React Native application.</Text>  
+      <Text style={{color:'#ffffff'}}>Feel free to modify the code.</Text>
+      <Text style={{color:'#ffffff'}}>Happy coding!</Text>
+
     </View>
   );
 }
