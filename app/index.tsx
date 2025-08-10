@@ -1,13 +1,16 @@
-
 //import { Button } from "@react-navigation/elements";
 import React from "react";
-import { Button, Text, View } from "react-native";
+import { ActivityIndicator, Text, View } from "react-native";
 
 export default function Index() {
   return (
-    <View style={{flex:1,alignItems:'center',justifyContent:'center',backgroundColor:'#e13636ff'}}>
-      <View style={{backgroundColor:'#ffffff',padding:20,borderRadius:10}}>
-            <Button color={'yellow'} title="Click Me" onPress={() => console.log('Button Presssed')}/>
+    <View style={{flex:1,alignItems:'center',justifyContent:'center',backgroundColor:'#ffffffff'}}>
+
+
+      <View style={{flexDirection:'row',alignItems:'center',justifyContent:'center'}}>
+        <ActivityIndicator />
+        <ActivityIndicator size="small" color="#00ff00ff" />
+        <ActivityIndicator size="large" color="#0000ffff" animating={false}/>
       </View>
 
       <Text style={{color:'#ffffff',marginTop:20}}>Hello, this is a simple app!</Text>
